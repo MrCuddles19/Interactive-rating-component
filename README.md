@@ -55,7 +55,7 @@ more screenshots!
 
 ### What I learned
 
-I have been practicing for sometime now soo this wasn't too difficult. But the styling for the star, result and option element was confusing. I thought the recquired a unique  background color. But i realized it was a box shadow. And i tried a lot of them but i got this.
+I have been practicing for sometime now soo this wasn't too difficult. But the styling for the star, result and option elements was confusing. I thought the recquired a unique  background color. But i realized it was a box shadow. And i tried a lot of them but i got this.
 ```css
 .option {
   box-shadow: 5px 5px 50px 1px rgba(0, 0, 0, 0.5);
@@ -74,7 +74,9 @@ Another challenge I encountered was about the functionality of the project. I wa
       });
     });
 ```
-When the buttons are being looped through when clicked, it will set every other button in the selectorAll to have no background. And then it will the class active to it to make the button have a white background color.  
+When the buttons are being looped through when clicked, it will set every other button in the selectorAll to have no background. And then it will the class active to it to make the button have a white background color. 
+
+I added an alert message so that when you submit without selecting a rating you will be prompted. 
 
 
 ### Continued development
