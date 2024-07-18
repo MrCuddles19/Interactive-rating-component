@@ -36,6 +36,7 @@
    background-color: var(--Dark-Blue);
    padding: 30px;
    border-radius: 30px;
+   z-index: -1;
 }
 
 .star {
@@ -75,17 +76,22 @@
     padding: 10px;
     width: 50px;
     height: 50px;
-    /*border: solid 2px gold;*/
+    border: none;
+    background-color: var(--Dark-Blue);
     border-radius: 50%;
     box-shadow: 1px 1px 50px 1px rgba(0, 0, 0, 0.5);
     color: var(--Light-Grey);
     cursor: pointer;
-    transition: all .2s ease;
+    transition: all .1s ease;
 }
 
 .options:hover {
     background-color: var(--Orange);
     color: #000;
+}
+
+.options:active {
+    transform: translateY(.1cm);
 }
 
 .submit-btn {
@@ -125,10 +131,6 @@
    z-index: -1;
 }
 
-.appear {
-    z-index: 999999;
-}
-
 .thank-you-card img {
     width: 170px;
     margin-top: 10px;
@@ -160,6 +162,14 @@
     text-align: center;
 }
 
+.selected {
+    background-color: var(--White);
+    color: #000;
+}
+
+.active {
+    z-index: 1;
+}
 
 
 @media (max-width: 375px) {
