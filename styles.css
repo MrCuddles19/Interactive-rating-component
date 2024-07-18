@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /*colours*/
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    /*fonts*/
+    --ff: "Overpass", sans-serif;
+    --header: bold 20px var(--ff);
+    --description: 15px var(--ff);
+}
+
+.container {
+
+}
+
+.card-ratings {
+
+}
+
+span .star {
+
+}
+
+.star {
+
+}
+
+.header {
+
+}
+
+.description {
+
+}
+
+.rating-options {
+
+}
+
+.options {
+
+}
+
+.submit-btn {
+
+}
+
+.thank-you-card {
+
+}
+
+.thank-you-card img {
+
+}
+
+.chosen-option-p {
+
+}
+
+
+
+
